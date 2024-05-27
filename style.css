@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+#main-div {
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+#input-box {
+  height: 40px;
+  width: calc(100% - 20px);
+  border-radius: 7px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+#add-btn {
+  height: 45px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  background-color: rgb(136, 239, 136);
+  font-size: large;
+  cursor: pointer;
+}
+
+#task-container {
+  margin-top: 20px;
+  text-align: left;
+}
+
+#interDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #e0e0e0;
+  border-radius: 5px;
+}
+
+#interDiv button {
+  background-color: red;
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+}
